@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS SortDB
+(
+    id    SERIAL PRIMARY KEY ,
+    name  INT[] NOT NULL
+
+);
